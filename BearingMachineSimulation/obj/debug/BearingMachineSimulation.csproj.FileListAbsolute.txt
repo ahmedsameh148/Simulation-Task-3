@@ -103,3 +103,14 @@ C:\Users\soa\Desktop\Task3 Template\Task3 Template\[Students]_Template\BearingMa
 C:\Users\soa\Desktop\Task3 Template\Task3 Template\[Students]_Template\BearingMachineSimulation\obj\Debug\BearingMachineSimulation.csproj.CoreCompileInputs.cache
 C:\Users\soa\Desktop\Task3 Template\Task3 Template\[Students]_Template\BearingMachineSimulation\obj\Debug\BearingMachineSimulation.exe
 C:\Users\soa\Desktop\Task3 Template\Task3 Template\[Students]_Template\BearingMachineSimulation\obj\Debug\BearingMachineSimulation.pdb
+E:\Collage\[Students]_Template\BearingMachineSimulation\bin\Debug\BearingMachineSimulation.exe.config
+E:\Collage\[Students]_Template\BearingMachineSimulation\obj\Debug\BearingMachineSimulation.exe
+E:\Collage\[Students]_Template\BearingMachineSimulation\obj\Debug\BearingMachineSimulation.pdb
+E:\Collage\[Students]_Template\BearingMachineSimulation\bin\Debug\BearingMachineSimulation.exe
+E:\Collage\[Students]_Template\BearingMachineSimulation\bin\Debug\BearingMachineSimulation.pdb
+E:\Collage\[Students]_Template\BearingMachineSimulation\bin\Debug\BearingMachineModels.dll
+E:\Collage\[Students]_Template\BearingMachineSimulation\bin\Debug\BearingMachineModels.pdb
+E:\Collage\[Students]_Template\BearingMachineSimulation\bin\Debug\BearingMachineTesting.pdb
+E:\Collage\[Students]_Template\BearingMachineSimulation\obj\Debug\BearingMachineSimulation.csprojResolveAssemblyReference.cache
+E:\Collage\[Students]_Template\BearingMachineSimulation\obj\Debug\BearingMachineSimulation.Properties.Resources.resources
+E:\Collage\[Students]_Template\BearingMachineSimulation\obj\Debug\BearingMachineSimulation.csproj.GenerateResource.Cache
