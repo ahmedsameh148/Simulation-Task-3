@@ -114,3 +114,6 @@ E:\Collage\[Students]_Template\BearingMachineSimulation\bin\Debug\BearingMachine
 E:\Collage\[Students]_Template\BearingMachineSimulation\obj\Debug\BearingMachineSimulation.csprojResolveAssemblyReference.cache
 E:\Collage\[Students]_Template\BearingMachineSimulation\obj\Debug\BearingMachineSimulation.Properties.Resources.resources
 E:\Collage\[Students]_Template\BearingMachineSimulation\obj\Debug\BearingMachineSimulation.csproj.GenerateResource.Cache
+E:\Collage\[Students]_Template\BearingMachineSimulation\obj\Debug\BearingMachineSimulation.dgvInputData.resources
+E:\Collage\[Students]_Template\BearingMachineSimulation\obj\Debug\BearingMachineSimulation.Form2.resources
+E:\Collage\[Students]_Template\BearingMachineSimulation\obj\Debug\BearingMachineSimulation.Form3.resources

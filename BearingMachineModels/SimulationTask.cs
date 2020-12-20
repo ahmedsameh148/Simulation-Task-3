@@ -9,10 +9,12 @@ namespace BearingMachineModels
 {
     public class SimulationTask
     {
-        SimulationSystem system;
+        public SimulationSystem system;
+        Random random;
         public SimulationTask()
         {
             system = new SimulationSystem();
+            random = new Random();
         }
 
         public void readData(string path)
@@ -66,7 +68,7 @@ namespace BearingMachineModels
                         time.Time = int.Parse(timeDisLine[0]);
                         time.Probability = decimal.Parse(timeDisLine[1]);
                         time.MinRange = ac + 1;
-                        ac += (int)(double.Parse(timeDisLine[1]) * 100.0);
+                        ac += (int)(double.Parse(timeDisLine[1]) * 10.0);
                         time.MaxRange = ac; i++;
                         system.DelayTimeDistribution.Add(time);
                     }
@@ -89,5 +91,27 @@ namespace BearingMachineModels
                 }
             }
         }
+
+        public KeyValuePair<int, int> generateBearingLife()
+        {
+            int num = random.Next(1, 101);
+            foreach (TimeDistribution time in system.BearingLifeDistribution)
+            {
+                if (time.MinRange <= num && time.MaxRange >= num)
+                    return new KeyValuePair<int, int>(num, time.Time);
+            }
+            return new KeyValuePair<int, int>();
+        }
+        public KeyValuePair<int, int> generateDelayTime()
+        {
+            int num = random.Next(1, 11);
+            foreach (TimeDistribution time in system.BearingLifeDistribution)
+            {
+                if (time.MinRange <= num && time.MaxRange >= num)
+                    return new KeyValuePair<int, int>(num, time.Time);
+            }
+            return new KeyValuePair<int, int>();
+        }
+        
     }
 }
