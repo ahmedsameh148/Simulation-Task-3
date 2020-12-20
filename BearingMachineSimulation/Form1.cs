@@ -29,6 +29,10 @@ namespace BearingMachineSimulation
             simulationTask = new SimulationTask();
             simulationTask.readData("e:\\collage\\[students]_template\\bearingmachinesimulation\\testcases\\testcase1.txt");
             ShowData();
+            simulationTask.FillCurrentSimulationTable();
+            simulationTask.FillProposedSimulationTable();
+            string test = TestingManager.Test(simulationTask.system, Constants.FileNames.TestCase1);
+            MessageBox.Show(test);
         }
         public void ShowData()
         {

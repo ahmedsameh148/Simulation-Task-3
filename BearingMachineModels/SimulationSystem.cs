@@ -30,8 +30,8 @@ namespace BearingMachineModels
         public int RepairTimeForAllBearings { get; set; }
         public List<TimeDistribution> DelayTimeDistribution { get; set; }
         public List<TimeDistribution> BearingLifeDistribution { get; set; }
-
-        ///////////// OUTPUTS /////////////
+        public List<KeyValuePair<int, int> > [] CurrentTableValues;
+        ///////////// OUTPUTS ///////////// 
         public List<CurrentSimulationCase> CurrentSimulationTable { get; set; }
         public PerformanceMeasures CurrentPerformanceMeasures { get; set; }
         public List<ProposedSimulationCase> ProposedSimulationTable { get; set; }
